@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Información de Distribuidores";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2 class="text-primary">Distribuidores conocidos en Perú y el Mundo</h2>
+    <p>Información referencial sobre empresas distribuidoras y operadores logísticos.</p>
+
+    <ul class="nav nav-tabs" id="distribuidoresTabs" role="tablist">
+        <li class="nav-item">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#peru1" type="button">
+                Dinet Perú
+            </button>
+        </li>
+
+        <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#peru2" type="button">
+                Grupo Jiménez
+            </button>
+        </li>
+
+        <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#mundo" type="button">
+                Sysco
+            </button>
+        </li>
+    </ul>
+
+    <div class="tab-content border p-4">
+
+        <div class="tab-pane fade show active" id="peru1">
+            <h3>Dinet Perú</h3>
+            <p>
+                Dinet es un operador logístico peruano que ofrece servicios de transporte,
+                distribución, almacenamiento y soluciones para comercio electrónico.
+            </p>
+
+            <img src="https://dinet.com.pe/storage/img/content/logo-174647661468191e4607702.png"
+                 class="img-fluid mb-3"
+                 alt="Dinet Perú" />
+
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/lWXYc58nd3s?si=TGRQPt53ztv_b26R"
+                        title="Video Dinet"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="peru2">
+            <h3>Grupo Jiménez</h3>
+            <p>
+                Grupo Jiménez es una red peruana de distribución de productos de consumo masivo,
+                trabajando con diversas marcas y líneas comerciales.
+            </p>
+
+            <img src="https://grupojimenez.info/public/image/isologo.png"
+                 class="img-fluid mb-3"
+                 alt="Grupo Jiménez" />
+
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/A80Kw8ovnas?si=JCG9u1inJbAwofDb"
+                        title="Video Grupo Jiménez"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="mundo">
+            <h3>Sysco</h3>
+            <p>
+                Sysco es una empresa internacional dedicada a la venta, marketing y distribución
+                de alimentos y productos relacionados para restaurantes, hoteles e instituciones.
+            </p>
+
+            <img src="https://www.sysco.com/_next/image?url=https%3A%2F%2Fimages.contentstack.io%2Fv3%2Fassets%2Fbltfe3373143ecd3517%2Fbltacfaa1c5bd7305ea%2F64ec44050d55676a6d2fa9a1%2FSysco-Logo-White1.png&w=384&q=755"
+                 class="img-fluid mb-3"
+                 alt="Sysco" />
+
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/laHYoPXE2Ec?si=tqfL1fTPo5LOWtcb"
+                        title="Video Sysco"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+</div>
